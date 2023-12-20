@@ -21,6 +21,9 @@ My solution ain't pretty, so I was looking for how I can potentially improve the
     6. Wait again for Roborock to dock, empty, wash, etc. 
 3. The automation's behaviour is set up to queue. So it will handle multiple requests one at a time instead of stopping its current job. Great! BUT .... I can't change the order of the queue so it does all vacuuming in one go then the mopping, it does areas at a time.
 4. Creating the automation above is difficult so I created a script to generate the YAML. There is a configuration variable that allows you to input locations, preferred fan_speeds, mopping intensity, and more. 
-5. Finally I setup an extensive catch all Google Assistant automations in Google Home Script editor to handle the different ways I'll inevitably say the command wrong (highly unreliable otherwise, kitchen work area != kitchen working area and Google shits itself). Same script generates the YAML here too. 
+5. Finally I setup an extensive catch all Google Assistant automations in Google Home Script editor to handle the different ways I'll inevitably say the command wrong (highly unreliable otherwise, kitchen work area != kitchen working area and Google shits itself). Same script generates the YAML here too.
+
+![image](https://github.com/gurmeetsidhu/Roborock-HomeAssistant-RoutineScriptGenerator/assets/13834880/938cc407-85ef-404e-a09e-725f248395c0)
+
 The end result is nice, I like being able to ask it to clean different segments now while my partner cook, clean and eat without having to worry about it smashing into our feet, miss an area. 
-What I would like to improve is the reliability. I wish there was a way that Google had setup their                                                              SDK to be more conversational like DialogueFlow so I can pass back some troubleshooting, or ask for prompts (such as: do you just want to vacuum, mop or do both this time? etc.)
+What I would like to improve is the reliability. I wish there was a way that Google had setup their \SDK to be more conversational like DialogueFlow so I can pass back some troubleshooting, or ask for prompts (such as: do you just want to vacuum, mop or do both this time? etc.)
